@@ -27,6 +27,7 @@ elif DEVSTAT == 0:  # prod
 
 # CYBORG
 app = dash.Dash(external_stylesheets=[dbc.themes.CYBORG])
+server = app.server
 
 color_cards = '#1f1f1f'
 color_text = '#ffffff'
